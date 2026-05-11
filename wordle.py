@@ -22,8 +22,8 @@ while (attempt_count < MAX_ATTEMPTS):
         if char in user_input:
             pos = WORD.find(char)
             # print(f"\nThe letter {char} appears in {WORD} at {pos}")
-            puzzle_string = puzzle_string[:pos] + char + puzzle_string[pos + 1:];
+            puzzle_string = puzzle_string[:pos] + char + puzzle_string[pos + 1:]
 
     
     print(puzzle_string)
-    attempt_count += 1;
+    attempt_count += 1
